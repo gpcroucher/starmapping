@@ -1,0 +1,130 @@
+Preliminary Version of the Third Catalogue of Nearby Stars
+           Wilhelm Gliese and Hartmut Jahreiss
+    Astronomisches Rechen-Institut Heidelberg, Germany
+
+
+The present version of the CNS3 contains all known stars within 25 parsecs
+of the Sun.  It depends mainly on a preliminary version (Spring 1989) of the
+new General Catalogue of Trigonometric Parallaxes (YPC) prepared by Dr.
+William F. van Altena (Yale University).
+The catalogue contains every star with trigonometric parallax greater than or
+equal to 0.0390 arcsec, even though it may be evident from photometry or for
+other reasons that the star has a larger distance.  For red dwarf stars, new
+color-magnitude calibrations for broad-band colors were carried out and
+applied.  For white dwarfs, the recipes of McCook and Sion in ApJS, 65, 603
+(1987) were applied.  Stroemgren photometry was used (not yet
+systematically) for early-type stars and for late dwarfs, the latter
+supplied by E. H. Olsen from Copenhagen Observatory (private communication).
+Contrary to the CNS2 (Gliese 1969) trigonometric parallaxes and photometric
+or spectroscopic parallaxes were not combined.  The resulting parallax in the
+present version is always the trigonometric parallax -- if the relative error
+of the trigonometric parallax is smaller than 14 percent.  The resulting
+parallax is the photometric or spectroscopic parallax only if no trigonometric
+parallax is available or if the standard error of the trigonometric parallax
+is considerably larger.
+
+Catalogue Description
+
+Column
+
+1 - 8     Identifier
+    col. 1,2 :  Gl  Gliese: CNS2,      Veroeff. ARI Nr. 22 (1969)
+                GJ  Gliese &amp; Jahreiss, A&amp;AS, 38, 423 (1979)
+                Wo  Woolley et al.,   Roy. Obs. Ann. No. 5 (1970)
+                NN  newly added stars (not yet numbered)
+9 - 10    Components (A,B,C,... )
+11       Reliability of the distance
+       s:  trig. parallax &gt; 0.0390 and phot. parallax    &lt;  0.0390
+       x:  trig. parallax &gt; 0.0390 and phot. parallax    &lt;  0.0190
+       p:  trig. parallax &lt; 0.0390 and phot. parallax    &gt;  0.0390
+       q:  trig. parallax &lt; 0.0390 and phot. parallax(:) &gt;  0.0390
+13  - 20    Right ascension (B1950.0)
+22  - 29    Declination     (B1950.0)
+31  - 36    Total proper motion (arcseconds per year)
+38  - 42    Direction angle of proper motion
+44  - 49    Radial velocity (km/sec)
+51  - 53    Remark  -
+                 var  variable (?) radial velocity
+                 SB?  suspected spectroscopic binary
+                 SB   spectroscopic binary
+55 -  66    Spectral type or color class
+67       Selected sources -
+                 K    Kuiper Type (see ApJS, 59, 197, 1985)
+                 L    San-Gak Lee (AJ 89, 702, 1984)
+                 O    objective prism MK type (but not Michigan type)
+                 R    Robertson type (AJ, 89, 1229, 1984)
+                 s    Stephenson type (AJ, 91, 144, 1985  and
+                                       AJ, 92, 139, 1986)
+                 S    Smethells type (IAU Coll. No 76, p. 421, 1983)
+                 U    Upgren et al. (AJ, 77, 486, 1972)
+                 W    Mount Wilson type
+68 - 73     Apparent magnitude
+74        Code    -
+                 P    photographic
+                 *    photometric
+                 c    calculated or transformed
+                 v    variable
+                 :    uncertain
+75        J  : joint magnitude
+76 -  80    B-V color
+81        Code     -
+                 *    photographic
+                 c    calculated
+                 :    uncertain
+82        J  : joint color
+83 -  87    U-B color
+88        Code     -
+                 c    calculated
+                 C    from 'Cape refractor system'
+                 :    uncertain
+89        J  : joint color
+90 -  94    R-I color (Kron's system)
+95        Code     -
+                 C    in Cousins' system
+                 t    transformed from another system
+                 :    uncertain
+96        J  : joint color
+97 - 101    Trigonometric parallax           (F5.4)
+102 - 105    Standard error of trig. parallax (F4.4)
+107 - 111    Resulting parallax               (F5.4)
+112 - 115    Standard error of res.  parallax (F4.4)
+116        Code     -
+                 r    parallax from spectral types and broad-band
+                      colors
+                 w    photom. parallax for white dwarfs
+                 s    photom. parallax from Stroemgren photometry
+                 o    photom. parallax from Stroemgren photometry
+                      calculated by E. H. Olsen
+                 p    photom. parallax from other colors
+118 - 122    Absolute visual magnitude, M(V)
+123        Code, copied from col. 74
+124        Code, copied from col. 75
+125        Quality of absolute magnitude
+                 a               s.e.  &lt;  0.10 mag
+                 b    0.11  &lt;    s.e.  &lt;  0.20
+                 c    0.21  &lt;    s.e.  &lt;  0.30
+                 d    0.31  &lt;    s.e.  &lt;  0.50
+                 e    0.51  &lt;    s.e.  &lt;  0.75
+                 f    0.76  &lt;    s.e.
+128 - 131    U space velocity component in the galactic plane and directed
+              to the galactic center
+133 - 136    V space velocity component in the galactic plane and in the
+              direction of galactic rotation
+138 - 141    W space velocity component perpendicular to the plane and in
+              the direction of the north galactic pole
+143 - 148    HD number
+150 - 161    Durchmusterung number
+            BD :  Bonner Durchmusterung
+            CD :  Cordoba Durchmusterung
+            CP :  Cape Photographic Durchmusterung
+163 - 171    Giclas number
+173 - 177    LHS    number
+179 - 183    Number according to code in col. 179
+           V :  Vyssotsky number
+           U :  UGPMF     number (see AJ, 77, 486, 1972)
+           W :  white dwarf  (EG or Gr number)
+185 - 253    Additional identifications (LTT, LFT, Wolf, Ross, etc.)
+      and remarks
+
+Description prepared by Hartmut Jahreiss, Astronomisches Rechen-Institut,
+Moenchhofstrasse 12-14, D-6900 Heidelberg 1, GERMANY.
